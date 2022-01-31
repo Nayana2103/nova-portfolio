@@ -1,0 +1,41 @@
+/*portfolio*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    colour: white;
+    align-items:centre;
+    padding: 20px;
+    
+
+    }
+
+    .gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space around;
+    gap: 50px 5%;
+    }
+
+    .gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 30 px;
+    }
+
+    .heading{
+        color:white;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+
+    }
+    body{
+    background-image: url("porfoliobg.jpg");
+    background-size: cover;
+    
+    }
+
+    
+    /*end of porfolio*/
